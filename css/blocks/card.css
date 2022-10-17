@@ -1,0 +1,82 @@
+.card {
+    background-color: #fff;
+    width: 296px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-title {
+    position: relative;
+    font-family: 'Lato';
+    color: #000;
+    font-weight: 600;
+    font-size: 14.49px;
+    line-height: 157%;
+    padding-bottom: 8px;
+}
+
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.75px;
+    left: -7px;
+    right: -7px;
+    bottom: 0px;
+}
+
+.card-title + * {
+    margin-top: 13.7px;
+}
+
+.card-avatar {
+    margin-bottom: 25px;
+}
+
+.card-contents {
+ text-align: left;
+ padding-left: 7px;
+}
+
+.card-contents-title {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 15.93px;
+    line-height: 157%;
+    color: #000;
+}
+
+.card-contents-title + * {
+margin-top: 16px;
+}
+
+.card ul {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.62px;
+    line-height: 157%;
+    color: #000;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.card ul li + li {
+    margin-top: 16px ;
+}
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 240px;
+    }
+}
+
+

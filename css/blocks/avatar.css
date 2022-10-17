@@ -1,0 +1,23 @@
+.avatar {
+    text-align: center;
+}
+
+.avatar-img {
+    width: 57.44px;
+    height: 57.44px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-img + * {
+    margin-top: 8.43px;
+}
+
+.avatar-name {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 11.93px;
+    line-height: 157%;
+    color: #000;
+
+}

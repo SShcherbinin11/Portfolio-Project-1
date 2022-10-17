@@ -1,0 +1,134 @@
+.product {
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-img-wrapper {
+    position: relative;
+    margin-right: 87px;
+    padding-left: 61px;
+    padding-bottom: 75px;
+}
+
+.product-img {
+    border-radius: 18px;
+}
+
+.product-card {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.product-content {
+    max-height: 413px;
+    max-width: 584px;
+}
+
+.product-content-title {
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%;
+}
+
+.product-content-title+* {
+    margin-top: 10px;
+}
+
+.product-content-subtitle {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    color: #01996D;
+}
+
+.product-content-subtitle+* {
+    margin-top: 20px;
+}
+
+.product-content-text {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 157%;
+    color: #484848;
+    max-width: 530px;
+}
+
+.product-content-text+* {
+    margin-top: 40px;
+}
+
+@media (max-width: 1299px) {
+    .product {
+        padding-top: 80px;
+        padding-bottom: 300px;
+    }
+
+    .product-img-wrapper {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 60%;
+    }
+
+    .product-content-subtitle {
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    .product-card {
+        top: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    .product {
+        padding-top: 40px;
+    }
+
+    .product-row {
+        flex-direction: column-reverse;
+    }
+
+    .product-content {
+        margin-bottom: 40px;
+    }
+
+    .product-card {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 85%;
+    }
+
+    .product-img-wrapper {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 589px) {
+    .product-card {
+        top: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .product-img {
+    margin-top: 30px;
+}
+}
+
+@media (max-width: 365px) {
+    .product-img {
+    margin-top: 90px;
+}
+}
+

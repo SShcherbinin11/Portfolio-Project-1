@@ -1,0 +1,80 @@
+.btn,
+a.btn {
+	display: inline-block;
+	min-height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #01996d;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 4px;
+	transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+
+.home-btn {
+    display: flex;
+}
+
+.btn-big,
+a.btn-big {
+	min-height: 65px;
+}
+
+.story-btn {
+    display: flex;
+}
+
+.story-video-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-content-btn {
+    display: flex;
+}
+
+.mobile-btn{
+    margin-top: 15px;
+	display: inline-block;
+	min-height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #01996d;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 4px;
+	transition: opacity 0.2s ease;
+}
+
+@media (max-width: 991px) {
+	.btn,
+	a.btn {
+		min-height: 41px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.btn-big,
+a.btn-big {
+	min-height: 55px;
+}
+}
+
+
